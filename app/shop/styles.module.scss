@@ -1,0 +1,22 @@
+.form {
+  @apply flex flex-col gap-5 max-w-xl bg-slate-800 rounded-md p-8 m-auto;
+  input {
+    @apply p-2 bg-slate-600 outline-none rounded-md;
+  }
+  button {
+    @apply p-2 bg-slate-900 text-slate-100 rounded-md;
+  }
+}
+
+.contentWrapper {
+  @apply flex flex-wrap justify-center max-w-xl mx-auto my-10 gap-5;
+  .box {
+    @apply p-5 bg-slate-800 rounded-md text-center;
+    h4 {
+      @apply text-slate-400 font-bold text-lg;
+    }
+    p {
+      @apply text-slate-300 font-thin text-sm;
+    }
+  }
+}
